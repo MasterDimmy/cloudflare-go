@@ -13,6 +13,7 @@ var firewallRulePageOpts = PaginationOptions{
 	Page:    1,
 }
 
+
 func TestFirewallRules(t *testing.T) {
 	setup()
 	defer teardown()
